@@ -3,4 +3,9 @@ name = "pera-tmux"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "pera_tmux"
+path = "src/lib.rs"
+
 [dependencies]
+tokio = { version = "1.44.0", features = ["macros", "process", "rt-multi-thread", "signal", "time"] }
