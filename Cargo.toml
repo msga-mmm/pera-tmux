@@ -2,6 +2,8 @@
 name = "pera-tmux"
 version = "0.1.0"
 edition = "2024"
+description = "A Rust library for interacting with tmux sessions."
+license = "MIT"
 
 [lib]
 name = "pera_tmux"
